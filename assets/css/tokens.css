@@ -1,0 +1,61 @@
+/* U LIKE design tokens
+   Layout concept: a black "midnight feast" stage. Food photography is lit like cinema, U Like yellow
+   is the single electric accent, and thin double gold kasavu lines mark the Kerala signature.
+   The site deliberately commits to one dark visual world (no light theme). */
+:root {
+  color-scheme: dark;
+
+  /* Colour */
+  --ul-yellow: #F2EA18;        /* brand accent: headings, CTAs, highlights */
+  --ul-yellow-deep: #D9D000;   /* hover / pressed */
+  --ul-logo-yellow: #FAF800;   /* logo artwork only */
+  --juice-gold: #FCCC06;       /* Fresh Juice world */
+  --black: #050505;
+  --charcoal: #0E0E0F;
+  --card: #161618;
+  --card-2: #1D1D20;
+  --juice-night: #081C1C;
+  --juice-night-2: #0C2626;
+  --cream: #F6F3EA;
+  --cream-2: #D9D5C9;
+  --muted: #A9A597;            /* warm-biased grey, readable on black (AA) */
+  --line: rgba(246, 243, 234, 0.12);
+  --line-strong: rgba(246, 243, 234, 0.24);
+  --kasavu: #D4B456;           /* kasavu gold for hairlines */
+  --leaf: #2F7D32;
+  --veg: #2E9B3E;
+  --chilli: #D9381E;
+  --whatsapp: #25D366;
+  --whatsapp-deep: #1DA851;
+  --focus: #F2EA18;
+
+  /* Type */
+  --f-display: "Barlow Condensed", "Manjari", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --f-body: "Barlow", "Manjari", "Segoe UI", Roboto, system-ui, sans-serif;
+  --f-script: "Allura", "Segoe Script", cursive;
+  --f-hand: "Kalam", "Manjari", "Comic Sans MS", cursive;
+  --f-ml: "Manjari", "Noto Sans Malayalam", "Barlow", sans-serif;
+
+  --t-hero: clamp(3.1rem, 9.2vw, 8.6rem);
+  --t-h1: clamp(2.7rem, 7vw, 6rem);
+  --t-h2: clamp(2.2rem, 4.8vw, 4.1rem);
+  --t-h3: clamp(1.45rem, 2.2vw, 1.9rem);
+  --t-lead: clamp(1.08rem, 1.45vw, 1.28rem);
+  --t-body: 1.0625rem;
+  --t-small: 0.9rem;
+  --t-eyebrow: 0.8rem;
+
+  /* Space & shape */
+  --gutter: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+  --wrap: 1240px;
+  --s-section: clamp(4.5rem, 10vw, 8.5rem);
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 26px;
+  --shadow-lift: 0 30px 60px -28px rgba(0, 0, 0, 0.85);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --header-h: 76px;
+  --bar-h: 0px; /* mobile action bar height, set in base.css */
+}
