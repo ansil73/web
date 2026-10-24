@@ -11,12 +11,7 @@ window.ULIKE_CONFIG = {
  "foundedYear": 2005,
  "phones": [
   {
-   "label": "Phone 1",
-   "display": "+91 90729 00080",
-   "tel": "+919072900080"
-  },
-  {
-   "label": "Phone 2",
+   "label": "Phone",
    "display": "+91 94477 03155",
    "tel": "+919447703155"
   }
@@ -25,14 +20,15 @@ window.ULIKE_CONFIG = {
  "whatsappDisplay": "+91 94477 03155",
  "email": "ulikekply@gmail.com",
  "address": {
-  "street": "KE Road, Kovilkadavu",
+  "street": "Chirakkadavu",
   "locality": "Kanjirappally",
   "region": "Kerala",
-  "postalCode": "686507",
+  "postalCode": "",
   "country": "IN",
-  "full": "KE Road, Kovilkadavu, Kanjirappally, Kerala – 686507"
+  "full": "Chirakkadavu, Kanjirappally, Kottayam, Kerala"
  },
- "mapLink": "",
+ "mapLink": "https://maps.app.goo.gl/ULbawqb2nt8uVe2U7",
+ "mapCoords": "9.5262442,76.7750397",
  "instagram": [
   {
    "name": "Ulike_Events",
