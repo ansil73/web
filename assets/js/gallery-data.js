@@ -150,4 +150,8 @@ window.ULIKE_REELS = [
   "path": "assets/video/reel-03.mp4",
   "caption": "Live counters in action"
  }
+ {
+  "path": "assets/video/my-reel.mp4",
+  "caption": "My latest event reel"
+ }
 ];
