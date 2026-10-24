@@ -64,7 +64,7 @@
     'Service & hosting staff', 'Service plates & chafing dishes', 'Stage décor, lights & sound', 'Products (Ulike Distributors)'];
   var F = {
     name: { key: 'f.name', type: 'text', req: true, auto: 'name', err: 'err.name' },
-    mobile: { key: 'f.mobile', type: 'tel', req: true, auto: 'tel', err: 'err.mobile', placeholder: '90729 00080' },
+    mobile: { key: 'f.mobile', type: 'tel', req: true, auto: 'tel', err: 'err.mobile' },
     event: { key: 'f.event', type: 'select', req: true, options: CFG.eventTypes || [], err: 'err.select' },
     date: { key: 'f.date', type: 'date', req: true, err: 'err.date' },
     guests: { key: 'f.guests', type: 'select', req: true, options: CFG.guestRanges || [], err: 'err.select' },
