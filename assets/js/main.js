@@ -36,8 +36,8 @@
     tel2: CFG.phones && CFG.phones[1] ? 'tel:' + CFG.phones[1].tel : '',
     mailto: CFG.email ? 'mailto:' + CFG.email : '',
     wa: U.waUrl("Hello U Like! I'd like to know more about your catering services."),
-    maps: CFG.mapLink || 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(addrQuery),
-    directions: 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(addrQuery),
+    maps: CFG.mapLink || 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(CFG.mapCoords || addrQuery),
+    directions: 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(CFG.mapCoords || addrQuery),
     review: CFG.googleReviewLink || ''
   };
 
@@ -373,10 +373,10 @@
     document.querySelectorAll('[data-map-load]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var card = btn.closest('[data-map]');
-        var q = card.dataset.mapQuery;
+        var q = CFG.mapCoords || card.dataset.mapQuery;
         var f = document.createElement('iframe');
         f.src = 'https://maps.google.com/maps?q=' + encodeURIComponent(q) + '&z=15&output=embed';
-        f.title = 'Map showing U Like, Kovilkadavu, Kanjirappally';
+        f.title = 'Map showing the location of U Like';
         f.loading = 'lazy';
         f.referrerPolicy = 'no-referrer-when-downgrade';
         f.allowFullscreen = true;
