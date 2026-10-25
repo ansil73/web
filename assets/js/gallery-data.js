@@ -138,16 +138,8 @@ window.ULIKE_GALLERY_CATS = [
  }
 ];
 window.ULIKE_REELS = [
- {
-  "path": "assets/video/reel-01.mp4",
-  "caption": "Wedding highlights"
- },
- {
-  "path": "assets/video/reel-02.mp4",
-  "caption": "Fresh juice counter"
- },
- {
-  "path": "assets/video/reel-03.mp4",
-  "caption": "Live counters in action"
- }
+  {
+    "path": "assets/video/test-reel.mp4",
+    "caption": "Test reel"
+  }
 ];
