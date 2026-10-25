@@ -141,6 +141,6 @@ window.ULIKE_REELS = [
   {
     "path": "assets/video/test-reel.mp4",
     "caption": "Test reel"
-    "src": "assets/video/reel-01.mp4"
+    "src": "assets/video/test-reel.mp4"
   }
 ];
